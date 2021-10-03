@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #9f66d4;
+    --primary-color: #f6b332;
     --bg-color: #130f0d;
     --text-color: #f0f0f5;
     --light-color: rgba(255, 255, 255, 0.04);
@@ -71,12 +71,11 @@ button {
     color: var(--text-color);
     font-size: 1em;
 }
-
 button {
     margin-top: 16px;
     background-color: var(--primary-color);
+    color: var(--bg-color);
 }
-
 input ~ label {
     position: absolute;
     top: 16px;
@@ -85,24 +84,26 @@ input ~ label {
     color: rgba(255, 255, 255, 0.6) ;
     transition: .4s;
 }
-
 input:focus ~ label,
 input:valid ~ label {
     transform: translateY(-24px);
     font-size: 0.8em;
     letter-spacing: 0.1em;
 }
-
-
 .input span.error {
     display: flex;
-    
     padding: 0;
 
     background-color: rgba(255, 0, 0, 0.2);
 }
-
 .input span.error.active {
     border: 1px solid red;
     padding: 0.4em;
+}
+
+#changePage, a {
+    margin-top: 16px;
+    font-family: rise-of-kingdom;
+    text-align: center;
+    color: honeydew;
 }
