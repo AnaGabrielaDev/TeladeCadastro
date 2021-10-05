@@ -107,3 +107,9 @@ input:valid ~ label {
     text-align: center;
     color: honeydew;
 }
+footer {
+    font-family: rise-of-kingdom;
+    text-decoration: none;
+    text-align: end;
+    margin-right: 10px;
+}
